@@ -155,7 +155,7 @@ class IO:
                             "CourseName": course_name}
 
             #appending to student_data list
-            student_data.append(student)
+            students.append(student_data)
             print() #extra space for cleaner look
             print(f"You have registered {student_first_name} {student_last_name} for {course_name}.")
             # Prints out various error messages depending on the error that occurs
